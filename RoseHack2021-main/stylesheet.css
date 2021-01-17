@@ -1,0 +1,172 @@
+#map {
+  height: 70%;
+  width: 80%;
+  margin-top: 0 !important;
+  margin: auto;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url(leaves.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  /* text-shadow: 2px 2px #fae1dd; */
+}
+
+/*
+nav ul {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  background-color: #ffcad4;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 14 px 16 px;
+  text-align: center;
+}*/
+
+.menubar {
+  background-color: #dad7cd;
+  overflow: hidden;
+  top: 0;
+  margin: 0;
+}
+
+.menubar a {
+  float: left;
+  color: white;
+  padding: 10px 12px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.menubar a:hover {
+  background-color: #3a5a40;
+  color: #e5e5e5;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: #283618;
+}
+
+.inputs {
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+p {
+  text-align: center;
+  line-height: 30px;
+  background-color: #dad7cd;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #344e41;
+  padding-top: 40px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  top: 50%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.radio label {
+  position: relative;
+  font-size: 18px;
+  color: #354f52;
+  /* text-shadow: 2px 1px black; */
+}
+
+.location {
+  text-align: center;
+  /* text-shadow: 3px 3px black; */
+  font-size: 40px;
+  height: 50%;
+  color: #354f52;
+}
+
+.searchBar {
+  background-size: 10px;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.searchButton {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.15em solid #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #495057;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.searchButton:hover {
+  color: #adb5bd;
+  border-color: #dddddd;
+}
+
+.contact {
+  padding: 20px;
+  background-color: #dad7cd;
+}
+input[type="text1"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 0.5em 3em;
+  border: 0.15em solid #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #495057;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  color: #adb5bd;
+  border-color: #dddddd;
+}
